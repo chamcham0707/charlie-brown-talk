@@ -1,0 +1,92 @@
+.chat-day {
+  display: block;
+  margin-top: 110px;
+  text-align: center;
+  background-color: var(--dark-blue);
+  border-radius: 20px;
+  padding: 10px 0;
+  width: 200px;
+  color: white;
+  margin-left: 150px;
+}
+
+.you-say {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.you-say img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid wheat;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.you-say__text {
+  background-color: wheat;
+  padding: 5px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  color: var(--dark-blue);
+}
+
+.you-say__time {
+  font-size: 12px;
+  margin-top: 7px;
+  margin-left: 5px;
+  color: wheat;
+}
+
+.chat-form-div {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.chat-form {
+  display: flex;
+
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  background-color: wheat;
+  padding: 10px;
+  position: relative;
+}
+
+.chat-form > i {
+  margin-right: 10px;
+  color: var(--dark-blue);
+}
+
+.chat-form input {
+  width: 500px;
+  padding: 5px 0;
+  border: none;
+  border-radius: 30px;
+}
+
+.chat-form__icon {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 410px;
+}
+
+.chat-form__icon i {
+  margin-left: 10px;
+}
+
+.chat-form__icon .fa-arrow-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--dark-blue);
+  color: white;
+}

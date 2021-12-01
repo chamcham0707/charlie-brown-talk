@@ -1,0 +1,11 @@
+.friends-body {
+  background-color: var(--blue);
+  height: 110vh;
+}
+
+.friends-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: wheat;
+}

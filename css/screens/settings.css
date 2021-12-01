@@ -1,0 +1,46 @@
+.settings-list {
+  padding: 0 20px;
+}
+
+.settings-list__row {
+  padding: 20px 10px;
+  background-color: var(--dark-blue);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  color: wheat;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.version-row {
+  margin-bottom: 15px;
+}
+
+.settings-list__row i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.settings-list__column:last-child {
+  color: rgb(236, 199, 134);
+}
+
+.settings__new-badge1 {
+  position: absolute;
+  width: 100%;
+  left: 120px;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+
+.settings__new-badge2 {
+  left: 110px;
+}

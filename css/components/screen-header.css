@@ -1,0 +1,25 @@
+.screen-header {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.screen-header__title {
+  font-size: 35px;
+  font-weight: 600;
+  color: wheat;
+}
+
+.screen-header__icon {
+  margin-left: 10px;
+  color: wheat;
+  position: relative;
+}
+
+.screen-header__dot {
+  left: 23px;
+  bottom: 22px;
+  background-color: tomato;
+}

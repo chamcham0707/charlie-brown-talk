@@ -1,0 +1,30 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: wheat;
+  color: var(--dark-blue);
+  border-radius: 20px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav__dot {
+  background-color: var(--blue);
+  left: 30px;
+}

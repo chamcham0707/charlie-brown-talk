@@ -1,0 +1,87 @@
+.recommend-screen {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-top: 20px;
+  color: var(--light-blue); /*#0a253a;*/
+}
+
+.recommend__text {
+  padding: 90px 0;
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 1px solid #0a253a;
+}
+
+.open-chat {
+  padding: 10px 20px;
+}
+
+.open-chat__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.open-chat__row:first-child {
+  color: var(--light-blue);
+}
+
+.open-chat__row i {
+  margin-left: 10px;
+}
+
+.open-chat__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.open-chat__title {
+  color: var(--dark-blue);
+  margin-bottom: 5px;
+}
+
+.open-chat__hashtags {
+  color: #386b92;
+  margin-bottom: 5px;
+}
+
+.open-chat__count img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.open-chat__members {
+  color: var(--light-blue);
+}
+
+.open-chat__status {
+  color: #0a253a;
+}
+
+.open-chat__photo {
+  position: relative;
+}
+
+.open-chat__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.open-chat__heart {
+  position: absolute;
+  width: 100%;
+  bottom: 8px;
+  left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue);
+  padding: 5px;
+  border-radius: 20px;
+  width: 50px;
+  color: white;
+}
