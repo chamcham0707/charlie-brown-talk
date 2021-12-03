@@ -62,3 +62,31 @@
 .login-form input:focus {
   border-color: wheat;
 }
+
+@keyframes imgHidden {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.login-first-img {
+  position: absolute;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  animation: imgHidden 1s ease-in-out forwards;
+  animation-delay: 3s;
+}
+
+.login-first-img img {
+  width: 300px;
+  height: 300px;
+}

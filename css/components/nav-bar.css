@@ -18,6 +18,22 @@
   position: relative;
 }
 
+@keyframes linkHover {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav__link i:hover {
+  animation: linkHover 1s ease-in-out infinite;
+}
+
 .nav__notification {
   position: absolute;
   left: 20px;
